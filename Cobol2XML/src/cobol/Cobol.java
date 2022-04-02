@@ -24,6 +24,11 @@ package cobol;
 import utensil.*;
 
 public class Cobol implements PubliclyCloneable {
+	// Constant Value
+	protected String constantName;
+	protected double constantValue;
+	protected int lineNumber = 0;
+	
 	protected String commentLine;
 	protected String program_id;
 	protected String sectionName;
@@ -246,5 +251,24 @@ public class Cobol implements PubliclyCloneable {
 		buf.append(sectionName);
 		
 		return buf.toString();
+	}
+	
+	public String getConstantName() {
+		return constantName;
+	}
+	public void setConstantName(String constantName) {
+		this.constantName = constantName;
+	}
+	public double getConstantValue() {
+		return constantValue;
+	}
+	public void setConstantValue(double constantValue) {
+		this.constantValue = constantValue;
+	}
+	public int getLineNumber() {
+		return lineNumber;
+	}
+	public void setLineNumber(int lineNumber) {
+		this.lineNumber = lineNumber;
 	}
 }
