@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_onBmcMFcEeyeobrOrvKHEA">
+  <modelElement href="Cobol2XML.uml#_k_bNoMFcEeyeobrOrvKHEA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pyR4oMFcEeyeobrOrvKHEA" sourceAnchor="86.0,0.0" targetAnchor="45.0,54.0" target="_S5514MFgEeyeobrOrvKHEA" source="_pyTt2cFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lTbuwcFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyXYMMFcEeyeobrOrvKHEA" position="529.0,89.0"/>
+    <stereotypes xmi:id="_pyR4ocFcEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lTbuw8FcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pyR4osFcEeyeobrOrvKHEA" text="">
+      <visualProperties xmi:id="_S-NuIMFgEeyeobrOrvKHEA" position="-32.5,0.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pyR4o8FcEeyeobrOrvKHEA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_lTbuwsFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-NHEcFgEeyeobrOrvKHEA" position="-61.5,-60.00000000000001"/>
+      <visibility xmi:id="_pyR4pMFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyR4pcFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pyR4psFcEeyeobrOrvKHEA" aggregationKind="NONE" name="fileTxt" navigable="true">
+      <modelElement href="Cobol2XML.uml#_lRoX8MFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-NuIcFgEeyeobrOrvKHEA" position="41.5,1.4210854715202004E-14"/>
+      <visibility xmi:id="_pyR4p8FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyR4qMFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pySfsMFcEeyeobrOrvKHEA" sourceAnchor="26.0,0.0" targetAnchor="0.0,27.0" target="_S5515MFgEeyeobrOrvKHEA" source="_pyTt2cFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lTbuxMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyXYMcFcEeyeobrOrvKHEA" position="529.0,89.0"/>
+    <bendpoints xmi:id="_S-MgAMFgEeyeobrOrvKHEA" sourceY="-194" targetX="-29"/>
+    <stereotypes xmi:id="_pySfscFcEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lTcV0MFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pySfssFcEeyeobrOrvKHEA" text="">
+      <visualProperties xmi:id="_S-OVMcFgEeyeobrOrvKHEA" position="-43.0,25.285714285714306"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pySfs8FcEeyeobrOrvKHEA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_lTbuxcFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-OVMMFgEeyeobrOrvKHEA" position="-18.0,-144.5"/>
+      <visibility xmi:id="_pySftMFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pySftcFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pySftsFcEeyeobrOrvKHEA" aggregationKind="NONE" name="formatterTxt" navigable="true">
+      <modelElement href="Cobol2XML.uml#_lRo_AMFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-OVMsFgEeyeobrOrvKHEA" position="-41.99999999999994,10.999999999999972"/>
+      <visibility xmi:id="_pySft8FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pySfuMFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pyTGwMFcEeyeobrOrvKHEA" sourceAnchor="56.0,0.0" targetAnchor="15.0,54.0" target="_S5514MFgEeyeobrOrvKHEA" source="_pyTt2cFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lTcV0cFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyXYMsFcEeyeobrOrvKHEA" position="529.0,89.0"/>
+    <stereotypes xmi:id="_pyTGwcFcEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lTc84MFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pyTGwsFcEeyeobrOrvKHEA" text="">
+      <visualProperties xmi:id="_S-O8QcFgEeyeobrOrvKHEA" position="2.5,-25.999999999999993"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pyTGw8FcEeyeobrOrvKHEA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_lTcV0sFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-O8QMFgEeyeobrOrvKHEA" position="-56.5,-55.0"/>
+      <visibility xmi:id="_pyTGxMFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyTGxcFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pyTGxsFcEeyeobrOrvKHEA" aggregationKind="NONE" name="fileHTML" navigable="true">
+      <modelElement href="Cobol2XML.uml#_lRo_AsFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_S-PjUMFgEeyeobrOrvKHEA" position="41.5,-7.105427357601002E-15"/>
+      <visibility xmi:id="_pyTGx8FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTGyMFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_pyTt0MFcEeyeobrOrvKHEA" sourceAnchor="0.0,58.0" targetAnchor="43.0,54.0" target="_STFGcMFgEeyeobrOrvKHEA" source="_pyTt2cFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lTc84cFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyXYM8FcEeyeobrOrvKHEA" position="529.0,89.0"/>
+    <bendpoints xmi:id="_S-NHEMFgEeyeobrOrvKHEA" sourceX="-52" sourceY="5" targetY="146"/>
+    <stereotypes xmi:id="_pyTt0cFcEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lTc848FcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_pyTt0sFcEeyeobrOrvKHEA" text="">
+      <visualProperties xmi:id="_SU_yAMFgEeyeobrOrvKHEA" position="1.0,-63.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_pyTt08FcEeyeobrOrvKHEA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_lTc84sFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_SU-j4MFgEeyeobrOrvKHEA" position="-17.0,2.0"/>
+      <visibility xmi:id="_pyTt1MFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyTt1cFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_pyTt1sFcEeyeobrOrvKHEA" aggregationKind="NONE" name="formatterHTML" navigable="true">
+      <modelElement href="Cobol2XML.uml#_lRpmEMFcEeyeobrOrvKHEA"/>
+      <visualProperties xmi:id="_SVAZEMFgEeyeobrOrvKHEA" position="2.0,1.0000000000000142"/>
+      <visibility xmi:id="_pyTt18FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTt2MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_STEfYMFgEeyeobrOrvKHEA" sourceAnchor="268.0,0.0" targetAnchor="13.0,54.0" superClass="_STFGcMFgEeyeobrOrvKHEA" subClass="_pyJ80MFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lQZB1MFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_STFGdMFgEeyeobrOrvKHEA" position="191.0,116.0"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pyJ80MFcEeyeobrOrvKHEA" name="MyFormatter" generalizations="_STEfYMFgEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lCuZQMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyKj4MFcEeyeobrOrvKHEA" position="50.0,50.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pyKj4cFcEeyeobrOrvKHEA" label="~"/>
+    <operations xmi:id="_pyKj4sFcEeyeobrOrvKHEA" name="calcDate">
+      <modelElement href="Cobol2XML.uml#_lCvAUMFcEeyeobrOrvKHEA"/>
+      <visibility xmi:id="_pyKj48FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyKj5MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pyKj5cFcEeyeobrOrvKHEA">
+        <modelElement href="Cobol2XML.uml#_lCvnYMFcEeyeobrOrvKHEA"/>
+        <type xmi:id="_pyKj5sFcEeyeobrOrvKHEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pyKj58FcEeyeobrOrvKHEA" name="millisecs">
+        <modelElement href="Cobol2XML.uml#_lCvAUcFcEeyeobrOrvKHEA"/>
+        <cardinality xmi:id="_pyKj6MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+        <type xmi:id="_pyKj6cFcEeyeobrOrvKHEA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pyKj6sFcEeyeobrOrvKHEA" name="format">
+      <modelElement href="Cobol2XML.uml#_lQXMoMFcEeyeobrOrvKHEA"/>
+      <visibility xmi:id="_pyKj68FcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyKj7MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pyKj7cFcEeyeobrOrvKHEA">
+        <modelElement href="Cobol2XML.uml#_lQXzsMFcEeyeobrOrvKHEA"/>
+        <type xmi:id="_pyKj7sFcEeyeobrOrvKHEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pyKj78FcEeyeobrOrvKHEA" name="rec">
+        <modelElement href="Cobol2XML.uml#_lQXMocFcEeyeobrOrvKHEA"/>
+        <cardinality xmi:id="_pyKj8MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+        <type xmi:id="_pyKj8cFcEeyeobrOrvKHEA" name="LogRecord">
+          <modelElement href="Cobol2XML.uml#_lPNWE8FcEeyeobrOrvKHEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pyKj8sFcEeyeobrOrvKHEA" name="getHead">
+      <modelElement href="Cobol2XML.uml#_lQXzscFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyKj88FcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lQYawMFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pyKj9MFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lQYawcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyKj9cFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyKj9sFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pyKj98FcEeyeobrOrvKHEA">
+        <modelElement href="Cobol2XML.uml#_lQXzs8FcEeyeobrOrvKHEA"/>
+        <type xmi:id="_pyKj-MFcEeyeobrOrvKHEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pyKj-cFcEeyeobrOrvKHEA" name="h">
+        <modelElement href="Cobol2XML.uml#_lQXzssFcEeyeobrOrvKHEA"/>
+        <cardinality xmi:id="_pyKj-sFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+        <type xmi:id="_pyKj-8FcEeyeobrOrvKHEA" name="Handler">
+          <modelElement href="Cobol2XML.uml#_lPNWEcFcEeyeobrOrvKHEA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_pyKj_MFcEeyeobrOrvKHEA" name="getTail">
+      <modelElement href="Cobol2XML.uml#_lQYaw8FcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyKj_cFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lQZB0cFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pyKj_sFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lQZB0sFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyKj_8FcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyKkAMFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pyKkAcFcEeyeobrOrvKHEA">
+        <modelElement href="Cobol2XML.uml#_lQZB0MFcEeyeobrOrvKHEA"/>
+        <type xmi:id="_pyKkAsFcEeyeobrOrvKHEA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_pyKkA8FcEeyeobrOrvKHEA" name="h">
+        <modelElement href="Cobol2XML.uml#_lQYaxMFcEeyeobrOrvKHEA"/>
+        <cardinality xmi:id="_pyKkBMFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+        <type xmi:id="_pyKkBcFcEeyeobrOrvKHEA" name="Handler">
+          <modelElement href="Cobol2XML.uml#_lPNWEcFcEeyeobrOrvKHEA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S5514MFgEeyeobrOrvKHEA" name="FileHandler" associationsIn="_pyR4oMFcEeyeobrOrvKHEA _pyTGwMFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lPPyUcFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_S5514cFgEeyeobrOrvKHEA" position="441.0,-89.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_S5514sFgEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lPQZYMFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <visibility xmi:id="_S55148FgEeyeobrOrvKHEA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_S5515MFgEeyeobrOrvKHEA" name="SimpleFormatter" associationsIn="_pySfsMFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lPRAccFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_S5515cFgEeyeobrOrvKHEA" position="455.0,-201.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_S5515sFgEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lPRAcsFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <visibility xmi:id="_S55158FgEeyeobrOrvKHEA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_STFGcMFgEeyeobrOrvKHEA" name="Formatter" associationsIn="_pyTt0MFcEeyeobrOrvKHEA" subclassedBy="_STEfYMFgEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lPMvAcFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_STFGccFgEeyeobrOrvKHEA" position="305.0,-117.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_STFGcsFgEeyeobrOrvKHEA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_lPNWEMFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <visibility xmi:id="_STFGc8FgEeyeobrOrvKHEA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_pyTt2cFcEeyeobrOrvKHEA" name="MyLogger" associationsOut="_pyR4oMFcEeyeobrOrvKHEA _pySfsMFcEeyeobrOrvKHEA _pyTGwMFcEeyeobrOrvKHEA _pyTt0MFcEeyeobrOrvKHEA">
+    <modelElement href="Cobol2XML.uml#_lCxckMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_pyTt2sFcEeyeobrOrvKHEA" position="400.0,20.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_pyTt28FcEeyeobrOrvKHEA" label="+"/>
+    <attributes xmi:id="_pyTt3MFcEeyeobrOrvKHEA" name="fileTxt" staticAttribute="true">
+      <modelElement href="Cobol2XML.uml#_lRoX8MFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyTt3cFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lRoX8cFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyTt3sFcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTt38FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <type xmi:id="_pyTt4MFcEeyeobrOrvKHEA" name="FileHandler">
+        <modelElement href="Cobol2XML.uml#_lPPyUcFcEeyeobrOrvKHEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pyTt4cFcEeyeobrOrvKHEA" name="formatterTxt" staticAttribute="true">
+      <modelElement href="Cobol2XML.uml#_lRo_AMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyTt4sFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lRo_AcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyTt48FcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTt5MFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <type xmi:id="_pyTt5cFcEeyeobrOrvKHEA" name="SimpleFormatter">
+        <modelElement href="Cobol2XML.uml#_lPRAccFcEeyeobrOrvKHEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pyTt5sFcEeyeobrOrvKHEA" name="fileHTML" staticAttribute="true">
+      <modelElement href="Cobol2XML.uml#_lRo_AsFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyTt58FcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lRo_A8FcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyTt6MFcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTt6cFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <type xmi:id="_pyTt6sFcEeyeobrOrvKHEA" name="FileHandler">
+        <modelElement href="Cobol2XML.uml#_lPPyUcFcEeyeobrOrvKHEA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_pyTt68FcEeyeobrOrvKHEA" name="formatterHTML" staticAttribute="true">
+      <modelElement href="Cobol2XML.uml#_lRpmEMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyTt7MFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lRpmEcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyTt7cFcEeyeobrOrvKHEA" label="-"/>
+      <cardinality xmi:id="_pyTt7sFcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+      <type xmi:id="_pyTt78FcEeyeobrOrvKHEA" name="Formatter">
+        <modelElement href="Cobol2XML.uml#_lPMvAcFcEeyeobrOrvKHEA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pyTt8MFcEeyeobrOrvKHEA" name="setup" staticOperation="true">
+      <modelElement href="Cobol2XML.uml#_lCyDoMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_pyTt8cFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCyqsMFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_pyTt8sFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_pyTt88FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

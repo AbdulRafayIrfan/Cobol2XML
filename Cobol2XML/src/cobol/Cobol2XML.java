@@ -52,7 +52,7 @@ public class Cobol2XML {
     
     
     public static void main(String[] args) throws Exception {
-		/* The first command line parameter is used to get the cobol source file namee
+		/* The first command line parameter is used to get the cobol source file name
 		 * In case you are not sure if you are pointing toward the right file, print out the filename
 		 * like this...
 		 *
@@ -79,7 +79,7 @@ public class Cobol2XML {
 		BufferedReader r = null;
 		try {
 			is = new FileInputStream(args[0]);
-			try {
+			try {        
 				r = new BufferedReader(new InputStreamReader(is));
 
 				Tokenizer t = CobolParser.tokenizer();

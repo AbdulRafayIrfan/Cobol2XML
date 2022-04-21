@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_opYW4MFcEeyeobrOrvKHEA">
+  <modelElement href="Cobol2XML.uml#_k_p3IMFcEeyeobrOrvKHEA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM7WIMFcEeyeobrOrvKHEA" name="NumTest">
+    <modelElement href="Cobol2XML.uml#_lCo5scFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM7WIcFcEeyeobrOrvKHEA" position="-139.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sM7WIsFcEeyeobrOrvKHEA" label="+"/>
+    <operations xmi:id="_sM7WI8FcEeyeobrOrvKHEA" name="test">
+      <modelElement href="Cobol2XML.uml#_lCpgwMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_sM7WJMFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCpgwcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sM7WJcFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lCqH0MFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_sM7WJsFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_sM7WJ8FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM9LUMFcEeyeobrOrvKHEA" name="SymbolTest">
+    <modelElement href="Cobol2XML.uml#_lCrV8sFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM9LUcFcEeyeobrOrvKHEA" position="-331.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sM9LUsFcEeyeobrOrvKHEA" label="+"/>
+    <operations xmi:id="_sM9LU8FcEeyeobrOrvKHEA" name="test">
+      <modelElement href="Cobol2XML.uml#_lCr9AMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_sM9LVMFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCskEMFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sM9LVcFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lCskEcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_sM9LVsFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_sM9LV8FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM79MMFcEeyeobrOrvKHEA" name="ParserTest">
+    <modelElement href="Cobol2XML.uml#_lCqH0sFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM79McFcEeyeobrOrvKHEA" position="405.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sM79MsFcEeyeobrOrvKHEA" label="+"/>
+    <operations xmi:id="_sM79M8FcEeyeobrOrvKHEA" name="test">
+      <modelElement href="Cobol2XML.uml#_lCqu4MFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_sM79NMFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCqu4cFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sM79NcFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lCrV8MFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_sM79NsFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_sM79N8FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM-ZcMFcEeyeobrOrvKHEA" name="TokenTest">
+    <modelElement href="Cobol2XML.uml#_lCtLIMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM-ZccFcEeyeobrOrvKHEA" position="597.0,41.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_sM-ZcsFcEeyeobrOrvKHEA" label="+"/>
+    <operations xmi:id="_sM-Zc8FcEeyeobrOrvKHEA" name="test">
+      <modelElement href="Cobol2XML.uml#_lCtLIcFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_sM-ZdMFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCtyMMFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sM-ZdcFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lCtyMcFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_sM-ZdsFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_sM-Zd8FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM6IAMFcEeyeobrOrvKHEA" name="LiteralTest">
+    <modelElement href="Cobol2XML.uml#_lCnrkMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM6IAcFcEeyeobrOrvKHEA" position="236.0,192.0" size="204.0,138.0"/>
+    <visibility xmi:id="_sM6IAsFcEeyeobrOrvKHEA" label="+"/>
+    <operations xmi:id="_sM6IA8FcEeyeobrOrvKHEA" name="test">
+      <modelElement href="Cobol2XML.uml#_lCoSoMFcEeyeobrOrvKHEA"/>
+      <stereotypes xmi:id="_sM6IBMFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_lCoSocFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_sM6IBcFcEeyeobrOrvKHEA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_lCoSosFcEeyeobrOrvKHEA"/>
+      </stereotypes>
+      <visibility xmi:id="_sM6IBsFcEeyeobrOrvKHEA" label="+"/>
+      <cardinality xmi:id="_sM6IB8FcEeyeobrOrvKHEA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_sM454MFcEeyeobrOrvKHEA" name="AllBaseTests">
+    <modelElement href="Cobol2XML.uml#_lClPUMFcEeyeobrOrvKHEA"/>
+    <visualProperties xmi:id="_sM454cFcEeyeobrOrvKHEA" position="51.0,191.0" size="133.0,123.0"/>
+    <stereotypes xmi:id="_sM454sFcEeyeobrOrvKHEA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_lCl2YMFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_sM4548FcEeyeobrOrvKHEA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_lCnEgMFcEeyeobrOrvKHEA"/>
+    </stereotypes>
+    <visibility xmi:id="_sM455MFcEeyeobrOrvKHEA" label="+"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
