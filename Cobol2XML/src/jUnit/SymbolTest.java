@@ -12,11 +12,11 @@ public class SymbolTest {
 
 	@Test
 	public void test() {
-		char ch = 'r';
-		Symbol symbol = new Symbol(ch);
-		ArrayList<String> arraylist = new ArrayList<String>();
-		arraylist = symbol.randomExpansion(3, 1);
-		assertFalse(arraylist.isEmpty());
+		char c = 'a';
+		Symbol symbol = new Symbol(c);
+		ArrayList<String> arrayList = new ArrayList<String>();
+		arrayList = symbol.randomExpansion(2,1);
+		assertFalse( arrayList.isEmpty() );
 	}
 
 }

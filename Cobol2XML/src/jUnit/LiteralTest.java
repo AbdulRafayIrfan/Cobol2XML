@@ -15,6 +15,7 @@ public class LiteralTest {
 	public void test() {
 		String s = "Hello";
 		Literal lit = new Literal(s);
+		// Check to see if tokenized string equals after being parsed
 		ArrayList<Parser> visited = new ArrayList<Parser>();
 		String sr = lit.unvisitedString(visited);
 		assertEquals(sr, s);

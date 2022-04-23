@@ -256,19 +256,25 @@ public class Cobol implements PubliclyCloneable {
 	public String getConstantName() {
 		return constantName;
 	}
+	
 	public void setConstantName(String constantName) {
 		this.constantName = constantName;
 	}
+	
 	public double getConstantValue() {
 		return constantValue;
 	}
+	
 	public void setConstantValue(double constantValue) {
 		this.constantValue = constantValue;
 	}
+	
 	public int getLineNumber() {
 		return lineNumber;
 	}
+	
 	public void setLineNumber(int lineNumber) {
 		this.lineNumber = lineNumber;
 	}
+	
 }

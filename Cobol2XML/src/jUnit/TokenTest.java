@@ -10,20 +10,19 @@ public class TokenTest {
 
 	@Test
 	public void test() {
-		char ch = 'l';
-		Token t = new Token(ch);
 		
-		// Testing to see if the character token is of what type
-		assertTrue(t.isSymbol());
+		char c = 'a';
+		Token t = new Token(c);
 		assertFalse(t.isNumber());
 		assertFalse(t.isWord());
+		assertTrue(t.isSymbol());
+
+		int i = 2;
+		Token t1 = new Token(i);
+		assertTrue(t1.isNumber());
+		assertFalse(t1.isWord());
+		assertFalse(t1.isSymbol());
 		
-		// Testing to see if the string token is of what type
-		String s = "Hello";
-		Token to = new Token(s);
-		assertTrue(to.isWord());
-		assertFalse(to.isSymbol());
-		assertFalse(to.isNumber());
 	}
 
 }

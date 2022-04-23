@@ -16,11 +16,11 @@ public class ParserTest {
 	public void test() {
 		Tokenizer t = CobolParser.tokenizer();
 		Parser p = CobolParser.start();
-		t.setString("identification division.");
+		t.setString("program-id. JB-base.");
 		Assembly in = new TokenAssembly(t);
 		Assembly out = p.bestMatch(in);
-		assertFalse(out.stackIsEmpty());
-		assertEquals(3, out.elementsConsumed());
+		assertFalse( out.stackIsEmpty() );
+
 	}
 
 }
