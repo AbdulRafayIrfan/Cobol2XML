@@ -23,6 +23,7 @@ package cobol;
 import parse.Alternation;
 import parse.Empty;
 import parse.Parser;
+import parse.Repetition;
 import parse.Sequence;
 import parse.tokens.CaselessLiteral;
 import parse.tokens.Num;
@@ -44,8 +45,6 @@ public class CobolParser {
 	public Parser cobol() {
 		Alternation a = new Alternation();
 		
-		a.add( constantValue() );
-		
 		Symbol fullstop = new Symbol('.');
 		fullstop.discard();
 		
@@ -56,6 +55,10 @@ public class CobolParser {
 		a.add( SectionName() );
 		
 		a.add( DateWritten() );
+		
+		a.add( constantValue() );
+		
+		a.add( CommentLine() );
 		
 		a.add(new Empty());
 		return a;
@@ -164,6 +167,29 @@ public class CobolParser {
 		s.add(new CaselessLiteral("value") );
 		s.add(new Num() );
 		s.setAssembler(new ConstantValueAssembler());
+		return s;
+	}
+	
+	/*
+	* Return a parser that will recognize the grammar:
+	* 
+	* ***--- comment text
+	*
+	*/
+	protected Parser CommentLine() {
+		//System.out.println("commentLine()");
+		Sequence s = new Sequence();
+		Repetition r = new Repetition(new Word());
+		s.add(new Symbol("*"));
+		s.add(new Symbol("*"));
+		s.add(new Symbol("*"));
+		s.add(new Symbol("-"));
+		s.add(new Symbol("-"));
+		s.add(new Symbol("-"));
+		// Comment can include a repetition of words, hence repetition of parsers used in this case
+		s.add(new Word());
+		s.add(r);
+		s.setAssembler(new CommentLineAssembler());
 		return s;
 	}
 
