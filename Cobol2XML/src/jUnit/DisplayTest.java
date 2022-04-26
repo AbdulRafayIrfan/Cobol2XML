@@ -13,28 +13,27 @@ import parse.tokens.Literal;
 import parse.tokens.TokenAssembly;
 import parse.tokens.Tokenizer;
 
-public class CommentLineTest {
+public class DisplayTest {
 
 	@Test
 	public void test() {
 		Tokenizer t = CobolParser.tokenizer();
 		Parser p = CobolParser.start();
-		t.setString("***--- random comment here");
+		t.setString("display window erase");
 		Assembly in = new TokenAssembly(t);
 		Assembly out = p.bestMatch(in);
 		
-		// check if absorbed assembly has same number of elements as expected (inputted)
-		// Here my comment should be 9, (6 symbols + 3 words)
-		assertEquals(9, out.length());
+		// display windo erase = 3 elements expected in out assembly
+		assertEquals(3, out.length());
 		
-		// check if assembly has been absorbed properly
+		// check that whole assembly of tokens is absorbed
 		assertNull(out.peek());
 		
 		// Checking if string given in tokenizer is same after parsing
-		ArrayList<Parser> visitedAL = new ArrayList<Parser>();
-		Literal lit = new Literal("***---  random comment here");
-		String sr = lit.unvisitedString(visitedAL);
-		assertEquals(sr, "***---  random comment here");
+		ArrayList<Parser> visited = new ArrayList<Parser>();
+		Literal lit = new Literal("display window erase");
+		String c2 = lit.unvisitedString(visited);
+		assertEquals(c2, "display window erase");
 	}
 
 }

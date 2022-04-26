@@ -27,6 +27,7 @@ import parse.Repetition;
 import parse.Sequence;
 import parse.tokens.CaselessLiteral;
 import parse.tokens.Num;
+import parse.tokens.QuotedString;
 import parse.tokens.Symbol;
 import parse.tokens.Tokenizer;
 import parse.tokens.Word;
@@ -59,6 +60,12 @@ public class CobolParser {
 		a.add( constantValue() );
 		
 		a.add( CommentLine() );
+		
+		a.add(Display());
+		
+		a.add(Move());
+		
+		a.add(Call());
 		
 		a.add(new Empty());
 		return a;
@@ -192,5 +199,86 @@ public class CobolParser {
 		s.setAssembler(new CommentLineAssembler());
 		return s;
 	}
-
+	
+	/**
+	 * Return a parser that will recognize the grammar:
+	 * 
+	 * <display> strings with quotations || words
+	 */
+	protected Parser Display() {
+		Sequence s = new Sequence();
+		Alternation a = new Alternation();
+		Repetition r = new Repetition(a);
+		s.add(new CaselessLiteral("display"));
+		a.add(new QuotedString());
+		a.add(new Word());
+		s.add(r);
+		s.setAssembler(new DisplayAssembler());
+		return s;
+	}
+	
+	/**
+	 * Returns a parser that will recognize the grammar:
+	 * 
+	 * <Move> <initial position> "to" <final position>
+	 * 
+	 */
+	protected Parser Move() {
+		Sequence s = new Sequence();
+		Alternation a  = new Alternation();
+		s.add(new CaselessLiteral("move"));
+		a.add(new Word());
+		a.add(new Num());
+		
+		// Second sequence to parse
+		Sequence se = new Sequence();
+		se.add(new Symbol("("));
+		se.add(new Word());
+		se.add(new Symbol(")"));
+		a.add(se);
+		Repetition r = new Repetition(a);
+		s.add(r);
+		s.add(new CaselessLiteral("to"));
+		Alternation al  = new Alternation();
+		al.add(new Word());
+		
+		// Third sequence to parse
+		Sequence seq = new Sequence();
+		seq.add(new Symbol("("));
+		seq.add(new Word());	
+		seq.add(new Symbol(":"));
+		seq.add(new Num());	
+		seq.add(new Symbol(")"));
+		al.add(seq);
+		Repetition re = new Repetition(al);
+		s.add(re);
+		s.setAssembler(new MoveAssembler());
+		return s;
+	}
+	
+	/**
+	 * Returns a parser that will recognize the grammar:
+	 * 
+	 * <call> <call identifier> "using" <variable> <value>
+	 */
+	protected Parser Call() {
+		Sequence s = new Sequence();
+		s.add(new CaselessLiteral("call"));
+		s.add(new QuotedString());
+		s.add(new CaselessLiteral("using"));
+		s.add(new Word());
+		
+		// Second sequence
+		Sequence se = new Sequence();
+		se.add(new Symbol(","));
+		se.add(new CaselessLiteral("value"));
+		se.add(new Num());
+		Alternation a = new Alternation(se);
+		
+		a.add(new QuotedString());
+		s.add(a);
+		s.setAssembler(new CallAssembler());
+		return s;
+		
+	}
 }

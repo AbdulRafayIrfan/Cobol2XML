@@ -36,6 +36,7 @@ import javax.xml.transform.stream.StreamResult;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import java.util.ArrayList;
 import java.util.logging.Logger;
 
 
@@ -152,6 +153,40 @@ public class XMLPayload {
 			//System.out.println("Comment Line null");
 		}
 
+		/**
+		 * add display element
+		 */
+		ArrayList<String> dQuotes = c.getQuoted();
+		ArrayList<String> dValues = c.getValues();
+		
+		if ((!dValues.isEmpty()) || (!dQuotes.isEmpty())) {
+			this.addDisplayElement(dQuotes, dValues);
+		} else {
+			//
+		}
+		
+		/**
+		 * add Move cobol element
+		 */
+		String initPos = c.getInitialPosition();
+		String fPos = c.getFinalPosition();
+		if (fPos != null && initPos != null) {
+			this.addMoveElement(initPos, fPos);
+		}
+		else {
+			//
+		}
+		
+		/**
+		 * add call cobol element
+		 */
+		String callId = c.getCallIdentifier();
+		if (callId != null) {
+			this.addCallElement(callId, c.getCallVariable(), c.getCallValue());
+		}
+		else {
+			//
+		}
 		
 	}   
 	
@@ -293,5 +328,89 @@ public class XMLPayload {
 
 		}
 	}
+	
+	void addDisplayElement (ArrayList<String> dQuotes, ArrayList<String> dValues) {
+		
+		if ((!dQuotes.isEmpty()) || (!dValues.isEmpty())) {
+				
+				Element cobolname = doc.createElement("Display");
+				
+				// every value looped
+				for (String value : dValues) {
+					Element displayV = doc.createElement("Display");
+					Attr attrValue = doc.createAttribute("Value" );
+					attrValue.setValue( value );
+					displayV.setAttributeNode(attrValue);
+					cobolname.appendChild(displayV);
+				}
+				
+				// every quoted string loop
+				for (String quote : dQuotes) {
+					Element displayQ = doc.createElement("Display");
+					Attr attrString = doc.createAttribute("String" );
+					attrString.setValue( quote );
+					displayQ.setAttributeNode(attrString);
+					cobolname.appendChild(displayQ);
+				}
+				
+				rootElement.appendChild(cobolname);
+		}
+	}
+			
+	void addCallElement(String callId, String callVar, double callVal) {
+		
+		if(callId != null) {
+			Element cobolname = doc.createElement("Call");
+			
+			// call id into xml file
+			Element callID = doc.createElement("Call");
+			Attr attrType = doc.createAttribute("Name" );
+			attrType.setValue( callId);
+			callID.setAttributeNode(attrType);
+			cobolname.appendChild(callID);
+			
+			// call vars into XML
+			Element VariableID = doc.createElement("Call");
+			Attr attrType1 = doc.createAttribute("Using_Variable" );
+			attrType1.setValue( callVar );
+			VariableID.setAttributeNode(attrType1);
+			cobolname.appendChild(VariableID);
+			
+			if (callVal != 0) {
+				// vals into XML file
+				Element ValueID = doc.createElement("Call");
+				Attr attrType2 = doc.createAttribute("Using_Value");
+				attrType2.setValue( Double.toString(callVal));
+				ValueID.setAttributeNode(attrType2);
+				cobolname.appendChild(ValueID);
+			}
+			
+			rootElement.appendChild(cobolname);
 
+		}
+		
+	}
+	
+	void addMoveElement(String initPos, String finalPos) {
+		if(initPos != null && finalPos != null) {
+			Element cobolname = doc.createElement("Move");
+			
+			// insert current location into XML file
+			Element moveLocationID = doc.createElement("Move");
+			Attr attrType = doc.createAttribute("Current_Location" );
+			attrType.setValue( initPos);
+			moveLocationID.setAttributeNode(attrType);
+			cobolname.appendChild(moveLocationID);
+			
+			// insert destination into XML file
+			Element moveDestinationID = doc.createElement("Move");
+			Attr attrType1 = doc.createAttribute("Destination" );
+			attrType1.setValue(finalPos);
+			moveDestinationID.setAttributeNode(attrType1);
+			cobolname.appendChild(moveDestinationID);
+			
+			rootElement.appendChild(cobolname);
+
+		}
+	}
 }

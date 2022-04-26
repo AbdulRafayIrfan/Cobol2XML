@@ -13,28 +13,27 @@ import parse.tokens.Literal;
 import parse.tokens.TokenAssembly;
 import parse.tokens.Tokenizer;
 
-public class ConstantValueTest {
+public class MoveTest {
 
 	@Test
 	public void test() {
 		Tokenizer t = CobolParser.tokenizer();
 		Parser p = CobolParser.start();
-		
-		// Testing cobol parser with a constant value line
-		t.setString("88 base_2 value 2.");
-		
+		t.setString("move w_number to entry_number");
 		Assembly in = new TokenAssembly(t);
 		Assembly out = p.bestMatch(in);
 		
-		// Check that number of elements in string equals tokenized number of elements,
-		// Here there are 4 elements: 88, base_2, value, 2
+		// we have 4 elements here so expecting 4 with the absorbed assembly
 		assertEquals(4, out.length());
 		
-		// Checking if string given in tokenizer is same after parsing
+		// check that whole assembly of tokens is absorbed
+		assertNull(out.peek());
+		
+		// Checking if string given in tokenizer is same after parsing 
 		ArrayList<Parser> visited = new ArrayList<Parser>();
-		Literal lit = new Literal("88 base_2 value 2.");
-		String s = lit.unvisitedString(visited);
-		assertEquals(s, lit.toString());
+		Literal lit = new Literal("move w_number to entry_number");
+		String c2 = lit.unvisitedString(visited);
+		assertEquals(c2, "move w_number to entry_number");
 	}
 
 }

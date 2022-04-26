@@ -21,6 +21,8 @@
 
 package cobol;
 
+import java.util.ArrayList;
+
 import utensil.*;
 
 public class Cobol implements PubliclyCloneable {
@@ -37,6 +39,18 @@ public class Cobol implements PubliclyCloneable {
 	protected String monthDateWritten;
 	protected int yearDateWritten = 0;
 
+	// Display cobol feature
+	protected ArrayList<String> quoted = new ArrayList<>();
+	protected ArrayList<String> values = new ArrayList<String>();
+	
+	// Move cobol feature
+	protected String initialPosition;
+	protected String finalPosition;
+	
+	// Call cobol feature
+	protected String CallIdentifier;
+	protected String CallVariable;
+	protected double CallValue;
 	
 	/**
 	 * Return a copy of this object.
@@ -276,5 +290,65 @@ public class Cobol implements PubliclyCloneable {
 	public void setLineNumber(int lineNumber) {
 		this.lineNumber = lineNumber;
 	}
+	/**
+	 * 
+	 * @return the quoted in display command
+	 */
+	public ArrayList<String> getQuoted() {
+		return quoted;
+	}
+	/**
+	 * Set the quoted display
+	 * @param ArrayList of display quotes
+	 */
+	public void setQuoted(ArrayList<String> quoted) {
+		this.quoted = quoted;
+	}
+	/**
+	 * @return get display values
+	 */
+	public ArrayList<String> getValues() {
+		return values;
+	}
+	/**
+	 * set display values
+	 * @param array list of display values
+	 */
+	public void setValues(ArrayList<String> values) {
+		this.values = values;
+	}
+	
+	public String getInitialPosition() {
+		return initialPosition;
+	}
+	public void setInitialPosition(String initialPosition) {
+		this.initialPosition = initialPosition;
+	}
+	public String getFinalPosition() {
+		return finalPosition;
+	}
+	public void setFinalPosition(String finalPosition) {
+		this.finalPosition = finalPosition;
+	}
+	public String getCallIdentifier() {
+		return CallIdentifier;
+	}
+	public void setCallIdentifier(String callIdentifier) {
+		CallIdentifier = callIdentifier;
+	}
+	public String getCallVariable() {
+		return CallVariable;
+	}
+	public void setCallVariable(String callVariable) {
+		CallVariable = callVariable;
+	}
+	public double getCallValue() {
+		return CallValue;
+	}
+	public void setCallValue(double callValue) {
+		CallValue = callValue;
+	}
+	
+	
 	
 }
