@@ -1,8 +1,24 @@
-Apr 25, 2022 8:48:20 PM cobol.Cobol2XML main
+Apr 29, 2022 12:23:38 AM cobol.Cobol2XML main
 INFO: Cobol2XML V0.1.0
-Apr 25, 2022 8:48:20 PM xmlwriter.XMLPayload writeFile
+Apr 29, 2022 12:23:39 AM xmlwriter.XMLPayload writeFile
 INFO: <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <cobol>
-    <comment>convert from decimal to base system </comment>
+    <division>identification</division>
+    <Program-ID>base_jb</Program-ID>
+    <day-date-written>7</day-date-written>
+    <month-date-written>jul</month-date-written>
+    <year-date-written>1995</year-date-written>
+    <division>data</division>
+    <section>working-storage</section>
+    <division>procedure</division>
+    <Call>
+        <Call Name="&quot;c$justify&quot;"/>
+        <Call Using_Variable="entry_char &quot;R&quot;"/>
+    </Call>
+    <Call>
+        <Call Name="&quot;c$toupper&quot;"/>
+        <Call Using_Variable="entry_char"/>
+        <Call Using_Value="16.0"/>
+    </Call>
 </cobol>
 

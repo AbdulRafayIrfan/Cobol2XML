@@ -10,3 +10,6 @@ working-storage section.
 
 procedure division.
 
+call "c$justify" using entry_char "R".
+
+call "c$toupper" using entry_char, value 16.

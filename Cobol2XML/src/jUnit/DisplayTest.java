@@ -23,7 +23,7 @@ public class DisplayTest {
 		Assembly in = new TokenAssembly(t);
 		Assembly out = p.bestMatch(in);
 		
-		// display windo erase = 3 elements expected in out assembly
+		// display window erase = 3 elements expected in out assembly
 		assertEquals(3, out.length());
 		
 		// check that whole assembly of tokens is absorbed

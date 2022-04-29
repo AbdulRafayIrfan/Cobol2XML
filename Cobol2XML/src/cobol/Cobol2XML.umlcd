@@ -1,0 +1,1332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_UKlz0MVUEeylufis4gFmdA">
+  <modelElement href="Cobol2XML.uml#_S1N8UMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jjIrIMVUEeylufis4gFmdA" source="_jjLucMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbnW0cVUEeylufis4gFmdA"/>
+    <stereotypes xmi:id="_jjJSMMVUEeylufis4gFmdA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_VbnW08VUEeylufis4gFmdA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jjJSMcVUEeylufis4gFmdA" text=""/>
+    <sourceRole xmi:id="_jjJSMsVUEeylufis4gFmdA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_VbnW0sVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjJSM8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjJSNMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jjJSNcVUEeylufis4gFmdA" aggregationKind="NONE" name="doc" navigable="true">
+      <modelElement href="Cobol2XML.uml#_VZcMkMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjJSNsVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjJSN8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jjKgUMVUEeylufis4gFmdA" source="_jjLucMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbnW1MVUEeylufis4gFmdA"/>
+    <stereotypes xmi:id="_jjKgUcVUEeylufis4gFmdA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_Vbn94MVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jjKgUsVUEeylufis4gFmdA" text=""/>
+    <sourceRole xmi:id="_jjKgU8VUEeylufis4gFmdA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_VbnW1cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjKgVMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjKgVcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jjKgVsVUEeylufis4gFmdA" aggregationKind="NONE" name="rootElement" navigable="true">
+      <modelElement href="Cobol2XML.uml#_VZczoMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjKgV8VUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjKgWMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jjLHYMVUEeylufis4gFmdA" source="_jjLucMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_Vbn94cVUEeylufis4gFmdA"/>
+    <stereotypes xmi:id="_jjLHYcVUEeylufis4gFmdA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_Vbok8MVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jjLHYsVUEeylufis4gFmdA" text=""/>
+    <sourceRole xmi:id="_jjLHY8VUEeylufis4gFmdA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_Vbn94sVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLHZMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLHZcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jjLHZsVUEeylufis4gFmdA" aggregationKind="NONE" name="LOGGER" navigable="true">
+      <modelElement href="Cobol2XML.uml#_VZczosVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLHZ8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLHaMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jq0AcMVUEeylufis4gFmdA" source="_jr8o4MVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbmvwcVUEeylufis4gFmdA"/>
+    <stereotypes xmi:id="_jr3wYMVUEeylufis4gFmdA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_Vbmvw8VUEeylufis4gFmdA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jr3JUMVUEeylufis4gFmdA" text=""/>
+    <sourceRole xmi:id="_jr3JUcVUEeylufis4gFmdA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_VbmvwsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr5lkcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr5lkMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jr3JUsVUEeylufis4gFmdA" aggregationKind="NONE" name="quoted" navigable="true">
+      <modelElement href="Cobol2XML.uml#_VZUQwcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr6MocVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr6MoMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_jriZMMVUEeylufis4gFmdA" source="_jr8o4MVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbmvxMVUEeylufis4gFmdA"/>
+    <stereotypes xmi:id="_jr3wZMVUEeylufis4gFmdA" name="Reference">
+      <modelElement href="Cobol2XML.uml#_VbnW0MVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_jr3wYcVUEeylufis4gFmdA" text=""/>
+    <sourceRole xmi:id="_jr3wYsVUEeylufis4gFmdA" aggregationKind="NONE" name="">
+      <modelElement href="Cobol2XML.uml#_VbmvxcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr6MpcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr6MpMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_jr3wY8VUEeylufis4gFmdA" aggregationKind="NONE" name="values" navigable="true">
+      <modelElement href="Cobol2XML.uml#_VZVe4cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr6Mp8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr6MpsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrn4wcVUEeylufis4gFmdA" targetItem="_jr8pOsVUEeylufis4gFmdA" sourceItem="_jrn4wMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrpG4cVUEeylufis4gFmdA" targetItem="_jr8pRsVUEeylufis4gFmdA" sourceItem="_jrpG4MVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrpt8MVUEeylufis4gFmdA" targetItem="_jr8pS8VUEeylufis4gFmdA" sourceItem="_jrpG4sVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrpt8sVUEeylufis4gFmdA" targetItem="_jr8pUMVUEeylufis4gFmdA" sourceItem="_jrpt8cVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrqVAcVUEeylufis4gFmdA" targetItem="_jr8pVcVUEeylufis4gFmdA" sourceItem="_jrqVAMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrq8EcVUEeylufis4gFmdA" targetItem="_jr8pWsVUEeylufis4gFmdA" sourceItem="_jrq8EMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrrjIcVUEeylufis4gFmdA" targetItem="_jr8pX8VUEeylufis4gFmdA" sourceItem="_jrrjIMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrsKMMVUEeylufis4gFmdA" targetItem="_jr8pZMVUEeylufis4gFmdA" sourceItem="_jrrjIsVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrsKMsVUEeylufis4gFmdA" targetItem="_jr9P8MVUEeylufis4gFmdA" sourceItem="_jrsKMcVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrsxQcVUEeylufis4gFmdA" targetItem="_jr9P9sVUEeylufis4gFmdA" sourceItem="_jrsxQMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrtYUcVUEeylufis4gFmdA" targetItem="_jr9P_MVUEeylufis4gFmdA" sourceItem="_jrtYUMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrt_YcVUEeylufis4gFmdA" targetItem="_jr9QAsVUEeylufis4gFmdA" sourceItem="_jrt_YMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrumccVUEeylufis4gFmdA" targetItem="_jr9QCMVUEeylufis4gFmdA" sourceItem="_jrumcMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrvNgMVUEeylufis4gFmdA" targetItem="_jr9QDsVUEeylufis4gFmdA" sourceItem="_jrumcsVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrvNgsVUEeylufis4gFmdA" targetItem="_jr9QFMVUEeylufis4gFmdA" sourceItem="_jrvNgcVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrv0kcVUEeylufis4gFmdA" targetItem="_jr9QGsVUEeylufis4gFmdA" sourceItem="_jrv0kMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrxCscVUEeylufis4gFmdA" targetItem="_jr9QQMVUEeylufis4gFmdA" sourceItem="_jrxCsMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrxpwcVUEeylufis4gFmdA" targetItem="_jr9QRsVUEeylufis4gFmdA" sourceItem="_jrxpwMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jrze8cVUEeylufis4gFmdA" targetItem="_jr9Qg8VUEeylufis4gFmdA" sourceItem="_jrze8MVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jr0GAcVUEeylufis4gFmdA" targetItem="_jr9QmMVUEeylufis4gFmdA" sourceItem="_jr0GAMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_jr0tEcVUEeylufis4gFmdA" targetItem="_jr9QnsVUEeylufis4gFmdA" sourceItem="_jr0tEMVUEeylufis4gFmdA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_D45UsMVZEeylufis4gFmdA" sourceAnchor="0.0,202.0" targetAnchor="178.0,42.0" dashed="true" superClass="_D47J4MVZEeylufis4gFmdA" subClass="_jr8o4MVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VV034MVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_D47J6MVZEeylufis4gFmdA" position="230.0,704.0"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_D457wcVZEeylufis4gFmdA" targetItem="_D47J48VZEeylufis4gFmdA" sourceItem="_D457wMVZEeylufis4gFmdA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrn4wMVUEeylufis4gFmdA" sourceConnectionVisual="_jrn4wcVUEeylufis4gFmdA" text="Return a copy of this object.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return a copy of this object" item="_jr8pOsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyYsVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrpG4MVUEeylufis4gFmdA" sourceConnectionVisual="_jrpG4cVUEeylufis4gFmdA" text="Return line of commented text from the COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return line of commented text from the COBOL program" item="_jr8pRsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyZMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrpG4sVUEeylufis4gFmdA" sourceConnectionVisual="_jrpt8MVUEeylufis4gFmdA" text="Return the name of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the name of this COBOL program" item="_jr8pS8VUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyZcVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrpt8cVUEeylufis4gFmdA" sourceConnectionVisual="_jrpt8sVUEeylufis4gFmdA" text="Return the section name.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the section name" item="_jr8pUMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyZsVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrqVAMVUEeylufis4gFmdA" sourceConnectionVisual="_jrqVAcVUEeylufis4gFmdA" text="Return the division name.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the division name" item="_jr8pVcVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyZ8VUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrq8EMVUEeylufis4gFmdA" sourceConnectionVisual="_jrq8EcVUEeylufis4gFmdA" text="Return the dayDateWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the dayDateWritten of this COBOL program" item="_jr8pWsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZcMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrrjIMVUEeylufis4gFmdA" sourceConnectionVisual="_jrrjIcVUEeylufis4gFmdA" text="Return the monthWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the monthWritten of this COBOL program" item="_jr8pX8VUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZccVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrrjIsVUEeylufis4gFmdA" sourceConnectionVisual="_jrsKMMVUEeylufis4gFmdA" text="Return the dayDateWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the dayDateWritten of this COBOL program" item="_jr8pZMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZcsVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrsKMcVUEeylufis4gFmdA" sourceConnectionVisual="_jrsKMsVUEeylufis4gFmdA" text="Set a line of commented text from the COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return line of commented text from the COBOL program" item="_jr9P8MVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZc8VUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrsxQMVUEeylufis4gFmdA" sourceConnectionVisual="_jrsxQcVUEeylufis4gFmdA" text="Set the name of this cobol file.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param   String   the name" item="_jr9P9sVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZdMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrtYUMVUEeylufis4gFmdA" sourceConnectionVisual="_jrtYUcVUEeylufis4gFmdA" text="Set the dayDateWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param the dayDateWritten of this COBOL program" item="_jr9P_MVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZdcVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrt_YMVUEeylufis4gFmdA" sourceConnectionVisual="_jrt_YcVUEeylufis4gFmdA" text="Return the monthWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return the monthWritten of this COBOL program" item="_jr9QAsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZdsVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrumcMVUEeylufis4gFmdA" sourceConnectionVisual="_jrumccVUEeylufis4gFmdA" text="Set the yearDateWritten of this COBOL program.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param the yearDateWritten of this COBOL program" item="_jr9QCMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZd8VUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrumcsVUEeylufis4gFmdA" sourceConnectionVisual="_jrvNgMVUEeylufis4gFmdA" text="Set the section name &#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param  String sectionName" item="_jr9QDsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZeMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrvNgcVUEeylufis4gFmdA" sourceConnectionVisual="_jrvNgsVUEeylufis4gFmdA" text="Set the division name &#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param  String divisionName" item="_jr9QFMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZecVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrv0kMVUEeylufis4gFmdA" sourceConnectionVisual="_jrv0kcVUEeylufis4gFmdA" text="Return a textual description of this cobol type.&#xD;&#xA;&#x9; * &#xD;&#xA;&#x9; * @return a textual description of this cobol type" item="_jr9QGsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZesVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrxpwMVUEeylufis4gFmdA" sourceConnectionVisual="_jrxpwcVUEeylufis4gFmdA" text="@return get display values" item="_jr9QRsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZfcVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrze8MVUEeylufis4gFmdA" sourceConnectionVisual="_jrze8cVUEeylufis4gFmdA" text="Compares two objects for equality, treating nulls carefullly,&#xD;&#xA;&#x9; * and relying on the first object's implementation of &lt;code>&#xD;&#xA;&#x9; * equals()&lt;/code>.&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param   o1   one object&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @param   o2   the other&#xD;&#xA;&#x9; *&#xD;&#xA;&#x9; * @return  &lt;code>true&lt;/code> if the objects are equal and&#xD;&#xA;&#x9; *          &lt;code>false&lt;/code> otherwise." item="_jr9Qg8VUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbFyY8VUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jr0GAMVUEeylufis4gFmdA" sourceConnectionVisual="_jr0GAcVUEeylufis4gFmdA" text="Set the quoted display&#xD;&#xA;&#x9; * @param ArrayList of display quotes" item="_jr9QmMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZfMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jr0tEMVUEeylufis4gFmdA" sourceConnectionVisual="_jr0tEcVUEeylufis4gFmdA" text="set display values&#xD;&#xA;&#x9; * @param array list of display values" item="_jr9QnsVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbHAgMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jnTZcMVUEeylufis4gFmdA" name="RegressionTest1">
+    <modelElement href="Cobol2XML.uml#_VH7l0sVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jnTZccVUEeylufis4gFmdA" position="11.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jnTZcsVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VH8M4MVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jnTZc8VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VH8M4cVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_jnTZdMVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jn094MVUEeylufis4gFmdA" name="RegressionTest2">
+    <modelElement href="Cobol2XML.uml#_VH8z9MVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jn094cVUEeylufis4gFmdA" position="205.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jn094sVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VH9bAMVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jn0948VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VH9bAcVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_jn095MVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_joOmgMVUEeylufis4gFmdA" name="RegressionTest3">
+    <modelElement href="Cobol2XML.uml#_VH-CE8VUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_joOmgcVUEeylufis4gFmdA" position="387.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_joOmgsVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VH-pIMVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_joOmg8VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VH-pIcVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_joOmhMVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jopdQMVUEeylufis4gFmdA" name="RegressionTest4">
+    <modelElement href="Cobol2XML.uml#_VH_QNMVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jopdQcVUEeylufis4gFmdA" position="582.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jopdQsVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VH_3QMVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jopdQ8VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VH_3QcVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_jopdRMVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jpOFAMVUEeylufis4gFmdA" name="RegressionTest5">
+    <modelElement href="Cobol2XML.uml#_VIAeUsVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jpOFAcVUEeylufis4gFmdA" position="764.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jpOFAsVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VIBFYMVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jpOFA8VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VIBFYcVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_jpOFBMVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jpr_EMVUEeylufis4gFmdA" name="RegressionTest6">
+    <modelElement href="Cobol2XML.uml#_VIBscMVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jpr_EcVUEeylufis4gFmdA" position="959.0,1431.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_jpr_EsVUEeylufis4gFmdA" name="LegacyStyledElement">
+      <modelElement href="Cobol2XML.uml#_VIBsccVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_jpr_E8VUEeylufis4gFmdA" name="Annotations">
+      <modelElement href="Cobol2XML.uml#_VICTgMVUEeylufis4gFmdA"/>
+    </stereotypes>
+    <visibility xmi:id="_jpr_FMVUEeylufis4gFmdA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jjLucMVUEeylufis4gFmdA" name="XMLPayload" associationsOut="_jjIrIMVUEeylufis4gFmdA _jjKgUMVUEeylufis4gFmdA _jjLHYMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VKt0EMVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jjLuccVUEeylufis4gFmdA" position="507.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jjLucsVUEeylufis4gFmdA" label="+"/>
+    <attributes xmi:id="_jjLuc8VUEeylufis4gFmdA" name="doc">
+      <modelElement href="Cobol2XML.uml#_VZcMkMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jjLudMVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZcMkcVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jjLudcVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLudsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jjLud8VUEeylufis4gFmdA" name="Document">
+        <modelElement href="Cobol2XML.uml#_VWBFIcVUEeylufis4gFmdA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jjLueMVUEeylufis4gFmdA" name="rootElement">
+      <modelElement href="Cobol2XML.uml#_VZczoMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jjLuecVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZczocVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jjLuesVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLue8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jjLufMVUEeylufis4gFmdA" name="Element">
+        <modelElement href="Cobol2XML.uml#_VWBsMcVUEeylufis4gFmdA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jjLufcVUEeylufis4gFmdA" defaultValue="Logger.getLogger(Logger.GLOBAL_LOGGER_NAME)" name="LOGGER" staticAttribute="true">
+      <modelElement href="Cobol2XML.uml#_VZczosVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jjLufsVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZdasMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jjLuf8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLugMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jjLugcVUEeylufis4gFmdA" name="Logger">
+        <modelElement href="Cobol2XML.uml#_VT9PocVUEeylufis4gFmdA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jjLugsVUEeylufis4gFmdA" name="XMLPayload">
+      <modelElement href="Cobol2XML.uml#_VKubIMVUEeylufis4gFmdA"/>
+      <keywords xmi:id="_jjLug8VUEeylufis4gFmdA" keyword="create"/>
+      <visibility xmi:id="_jjLuhMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLuhcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jjLuhsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKubI8VUEeylufis4gFmdA"/>
+        <type xmi:id="_jjLuh8VUEeylufis4gFmdA" name="XMLPayload">
+          <modelElement href="Cobol2XML.uml#_VKt0EMVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jjLuiMVUEeylufis4gFmdA" name="addProgram_IDElement">
+      <modelElement href="Cobol2XML.uml#_VKubJMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLuicVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLuisVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLui8VUEeylufis4gFmdA" name="stringElement">
+        <modelElement href="Cobol2XML.uml#_VKubJcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLujMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLujcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLujsVUEeylufis4gFmdA" name="addCommentLineElement">
+      <modelElement href="Cobol2XML.uml#_VKvCMMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLuj8VUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLukMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLukcVUEeylufis4gFmdA" name="stringElement">
+        <modelElement href="Cobol2XML.uml#_VKvCMcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuksVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuk8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLulMVUEeylufis4gFmdA" name="addSectionElement">
+      <modelElement href="Cobol2XML.uml#_VKvCMsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLulcVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLulsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLul8VUEeylufis4gFmdA" name="stringElement">
+        <modelElement href="Cobol2XML.uml#_VKvCM8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLumMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLumcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLumsVUEeylufis4gFmdA" name="addDivisionElement">
+      <modelElement href="Cobol2XML.uml#_VKvpQMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLum8VUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLunMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLuncVUEeylufis4gFmdA" name="stringElement">
+        <modelElement href="Cobol2XML.uml#_VKvpQcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLunsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLun8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLuoMVUEeylufis4gFmdA" name="addDayDateWrittenElement">
+      <modelElement href="Cobol2XML.uml#_VKvpQsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLuocVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLuosVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLuo8VUEeylufis4gFmdA" name="intElement">
+        <modelElement href="Cobol2XML.uml#_VKvpQ8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLupMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLupcVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLupsVUEeylufis4gFmdA" name="addMonthDateWrittenElement">
+      <modelElement href="Cobol2XML.uml#_VKvpRMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLup8VUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLuqMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLuqcVUEeylufis4gFmdA" name="stringElement">
+        <modelElement href="Cobol2XML.uml#_VKvpRcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuqsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuq8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLurMVUEeylufis4gFmdA" name="addYearDateWrittenElement">
+      <modelElement href="Cobol2XML.uml#_VKwQUMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLurcVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLursVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLur8VUEeylufis4gFmdA" name="intElement">
+        <modelElement href="Cobol2XML.uml#_VKwQUcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLusMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuscVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLussVUEeylufis4gFmdA" name="writeFile">
+      <modelElement href="Cobol2XML.uml#_VKwQUsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLus8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLutMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLutcVUEeylufis4gFmdA" name="filename">
+        <modelElement href="Cobol2XML.uml#_VKwQU8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLutsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLut8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLuuMVUEeylufis4gFmdA" name="addConstantValueElement">
+      <modelElement href="Cobol2XML.uml#_VKwQVMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLuucVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLuusVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLuu8VUEeylufis4gFmdA" name="constantName">
+        <modelElement href="Cobol2XML.uml#_VKwQVcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuvMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuvcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLuvsVUEeylufis4gFmdA" name="constantValue">
+        <modelElement href="Cobol2XML.uml#_VKwQVsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuv8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuwMVUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLuwcVUEeylufis4gFmdA" name="lineNumber">
+        <modelElement href="Cobol2XML.uml#_VKwQV8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuwsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuw8VUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLuxMVUEeylufis4gFmdA" name="addCallElement">
+      <modelElement href="Cobol2XML.uml#_VKw3YMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLuxcVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLuxsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLux8VUEeylufis4gFmdA" name="callId">
+        <modelElement href="Cobol2XML.uml#_VKw3YcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuyMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuycVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLuysVUEeylufis4gFmdA" name="callVar">
+        <modelElement href="Cobol2XML.uml#_VKw3YsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuy8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuzMVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLuzcVUEeylufis4gFmdA" name="callVal">
+        <modelElement href="Cobol2XML.uml#_VKw3Y8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLuzsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLuz8VUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLu0MVUEeylufis4gFmdA" name="addMoveElement">
+      <modelElement href="Cobol2XML.uml#_VKxecMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLu0cVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLu0sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLu08VUEeylufis4gFmdA" name="initPos">
+        <modelElement href="Cobol2XML.uml#_VKxeccVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLu1MVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLu1cVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLu1sVUEeylufis4gFmdA" name="finalPos">
+        <modelElement href="Cobol2XML.uml#_VKxecsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLu18VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLu2MVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLu2cVUEeylufis4gFmdA" name="addElements">
+      <modelElement href="Cobol2XML.uml#_VWCTQMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLu2sVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jjLu28VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLu3MVUEeylufis4gFmdA" name="c">
+        <modelElement href="Cobol2XML.uml#_VWCTQcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLu3cVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLu3sVUEeylufis4gFmdA" name="Cobol">
+          <modelElement href="Cobol2XML.uml#_VKa5IMVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jjLu38VUEeylufis4gFmdA" name="addDisplayElement">
+      <modelElement href="Cobol2XML.uml#_VYB3UMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jjLu4MVUEeylufis4gFmdA" label="~"/>
+      <cardinality xmi:id="_jjLu4cVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jjLu4sVUEeylufis4gFmdA" name="dQuotes">
+        <modelElement href="Cobol2XML.uml#_VYB3UcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLu48VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLu5MVUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jjLu5cVUEeylufis4gFmdA" name="dValues">
+        <modelElement href="Cobol2XML.uml#_VYB3UsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jjLu5sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jjLu58VUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_D457wMVZEeylufis4gFmdA" sourceConnectionVisual="_D457wcVZEeylufis4gFmdA" text="A PubliclyCloneable object is one to which any object can send&#xD;&#xA;&lt;code>clone()&lt;/code>.&#xD;&#xA;&#xD;&#xA;@return   a copy of the receiving object" item="_D47J48VZEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_Va6zQMVUEeylufis4gFmdA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_D47J4MVZEeylufis4gFmdA" name="PubliclyCloneable" subclassedBy="_D45UsMVZEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VHLX4MVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_D47J4cVZEeylufis4gFmdA" position="-220.0,197.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_D47J4sVZEeylufis4gFmdA" label="+"/>
+    <operations xmi:id="_D47J48VZEeylufis4gFmdA" comments="_D457wMVZEeylufis4gFmdA" targetConnectionVisual="_D457wcVZEeylufis4gFmdA" name="clone">
+      <modelElement href="Cobol2XML.uml#_VHMmAMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_D47J5MVZEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_D47J5cVZEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_D47J5sVZEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VWXqcsVUEeylufis4gFmdA"/>
+        <type xmi:id="_D47J58VZEeylufis4gFmdA" name="Object">
+          <modelElement href="Cobol2XML.uml#_VWXqcMVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jtfhAMVUEeylufis4gFmdA" name="CobolParser">
+    <modelElement href="Cobol2XML.uml#_VHSsoMVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jtfhAcVUEeylufis4gFmdA" position="1239.0,39.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jtfhAsVUEeylufis4gFmdA" label="+"/>
+    <operations xmi:id="_jtfhA8VUEeylufis4gFmdA" name="cobol">
+      <modelElement href="Cobol2XML.uml#_VHTTsMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhBMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jtfhBcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhBsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT-dwMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhB8VUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhCMVUEeylufis4gFmdA" name="ProgramID">
+      <modelElement href="Cobol2XML.uml#_VHT6wMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhCcVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhCsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhC8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_E0MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhDMVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhDcVUEeylufis4gFmdA" name="DivisionName">
+      <modelElement href="Cobol2XML.uml#_VHUh0MVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhDsVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhD8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhEMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_E0cVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhEcVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhEsVUEeylufis4gFmdA" name="SectionName">
+      <modelElement href="Cobol2XML.uml#_VHVI4MVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhE8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhFMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhFcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_E0sVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhFsVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhF8VUEeylufis4gFmdA" name="DateWritten">
+      <modelElement href="Cobol2XML.uml#_VHVv8MVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhGMVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhGcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhGsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_E08VUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhG8VUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhHMVUEeylufis4gFmdA" name="start" staticOperation="true">
+      <modelElement href="Cobol2XML.uml#_VHWXAMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhHcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jtfhHsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhH8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_E1MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhIMVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhIcVUEeylufis4gFmdA" name="tokenizer" staticOperation="true">
+      <modelElement href="Cobol2XML.uml#_VHW-EMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhIsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jtfhI8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhJMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r4MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhJcVUEeylufis4gFmdA" name="Tokenizer">
+          <modelElement href="Cobol2XML.uml#_VJzOEMVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhJsVUEeylufis4gFmdA" name="constantValue">
+      <modelElement href="Cobol2XML.uml#_VHXlIMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhJ8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhKMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhKcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r4cVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhKsVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhK8VUEeylufis4gFmdA" name="CommentLine">
+      <modelElement href="Cobol2XML.uml#_VHXlIcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhLMVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhLcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhLsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r4sVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhL8VUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhMMVUEeylufis4gFmdA" name="Display">
+      <modelElement href="Cobol2XML.uml#_VHYMMMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhMcVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhMsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhM8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r48VUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhNMVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhNcVUEeylufis4gFmdA" name="Move">
+      <modelElement href="Cobol2XML.uml#_VHYzQMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhNsVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhN8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhOMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r5MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhOcVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jtfhOsVUEeylufis4gFmdA" name="Call">
+      <modelElement href="Cobol2XML.uml#_VHZaUMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jtfhO8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jtfhPMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jtfhPcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VT_r5cVUEeylufis4gFmdA"/>
+        <type xmi:id="_jtfhPsVUEeylufis4gFmdA" name="Parser">
+          <modelElement href="Cobol2XML.uml#_VKOE0MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_jr8o4MVUEeylufis4gFmdA" name="Cobol" associationsOut="_jq0AcMVUEeylufis4gFmdA _jriZMMVUEeylufis4gFmdA" generalizations="_D45UsMVZEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VKa5IMVUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_jr8o4cVUEeylufis4gFmdA" position="22.0,37.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_jr8o4sVUEeylufis4gFmdA" label="+"/>
+    <attributes xmi:id="_jr8o48VUEeylufis4gFmdA" name="constantName">
+      <modelElement href="Cobol2XML.uml#_VZPYQMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o5MVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZP_UMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o5cVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o5sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8o58VUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8o6MVUEeylufis4gFmdA" name="constantValue">
+      <modelElement href="Cobol2XML.uml#_VZP_UcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o6cVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZQmYMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o6sVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o68VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8o7MVUEeylufis4gFmdA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8o7cVUEeylufis4gFmdA" defaultValue="0" name="lineNumber">
+      <modelElement href="Cobol2XML.uml#_VZQmYcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o7sVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZRNcMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o78VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o8MVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8o8cVUEeylufis4gFmdA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8o8sVUEeylufis4gFmdA" name="commentLine">
+      <modelElement href="Cobol2XML.uml#_VZRNccVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o88VUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZRNcsVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o9MVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o9cVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8o9sVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8o98VUEeylufis4gFmdA" name="program_id">
+      <modelElement href="Cobol2XML.uml#_VZR0gMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o-MVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZR0gcVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o-cVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o-sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8o-8VUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8o_MVUEeylufis4gFmdA" name="sectionName">
+      <modelElement href="Cobol2XML.uml#_VZR0gsVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8o_cVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZSbkMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8o_sVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8o_8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pAMVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pAcVUEeylufis4gFmdA" name="divisionName">
+      <modelElement href="Cobol2XML.uml#_VZSbkcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pAsVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZSbksVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pA8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pBMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pBcVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pBsVUEeylufis4gFmdA" defaultValue="0" name="dayDateWritten">
+      <modelElement href="Cobol2XML.uml#_VZTCoMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pB8VUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZTCosVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pCMVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pCcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pCsVUEeylufis4gFmdA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pC8VUEeylufis4gFmdA" name="monthDateWritten">
+      <modelElement href="Cobol2XML.uml#_VZTCo8VUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pDMVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZTpsMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pDcVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pDsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pD8VUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pEMVUEeylufis4gFmdA" defaultValue="0" name="yearDateWritten">
+      <modelElement href="Cobol2XML.uml#_VZTpscVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pEcVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZUQwMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pEsVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pE8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pFMVUEeylufis4gFmdA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pFcVUEeylufis4gFmdA" defaultValue="new ArrayList&lt;>()" name="quoted">
+      <modelElement href="Cobol2XML.uml#_VZUQwcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pFsVUEeylufis4gFmdA" name="Generics">
+        <modelElement href="Cobol2XML.uml#_VZU30MVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jr8pF8VUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZVe4MVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pGMVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pGcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pGsVUEeylufis4gFmdA" name="ArrayList">
+        <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pG8VUEeylufis4gFmdA" defaultValue="new ArrayList&lt;String>()" name="values">
+      <modelElement href="Cobol2XML.uml#_VZVe4cVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pHMVUEeylufis4gFmdA" name="Generics">
+        <modelElement href="Cobol2XML.uml#_VZWF8MVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jr8pHcVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZWtAMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pHsVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pH8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pIMVUEeylufis4gFmdA" name="ArrayList">
+        <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pIcVUEeylufis4gFmdA" name="initialPosition">
+      <modelElement href="Cobol2XML.uml#_VZWtAcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pIsVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZWtAsVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pI8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pJMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pJcVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pJsVUEeylufis4gFmdA" name="finalPosition">
+      <modelElement href="Cobol2XML.uml#_VZXUEMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pJ8VUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZXUEcVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pKMVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pKcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pKsVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pK8VUEeylufis4gFmdA" name="CallIdentifier">
+      <modelElement href="Cobol2XML.uml#_VZXUEsVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pLMVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZX7IMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pLcVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pLsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pL8VUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pMMVUEeylufis4gFmdA" name="CallVariable">
+      <modelElement href="Cobol2XML.uml#_VZX7IcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pMcVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZYiMMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pMsVUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pM8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pNMVUEeylufis4gFmdA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_jr8pNcVUEeylufis4gFmdA" name="CallValue">
+      <modelElement href="Cobol2XML.uml#_VZYiMcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pNsVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VZYiMsVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pN8VUEeylufis4gFmdA" label="#"/>
+      <cardinality xmi:id="_jr8pOMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <type xmi:id="_jr8pOcVUEeylufis4gFmdA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_jr8pOsVUEeylufis4gFmdA" comments="_jrn4wMVUEeylufis4gFmdA" targetConnectionVisual="_jrn4wcVUEeylufis4gFmdA" name="clone">
+      <modelElement href="Cobol2XML.uml#_VKcuUMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pO8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pPMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pPcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VXymwMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pPsVUEeylufis4gFmdA" name="Object">
+          <modelElement href="Cobol2XML.uml#_VWXqcMVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pP8VUEeylufis4gFmdA" name="hashCode">
+      <modelElement href="Cobol2XML.uml#_VKcuUcVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr8pQMVUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VKdVYcVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jr8pQcVUEeylufis4gFmdA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_VKdVYsVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr8pQsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pQ8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pRMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKdVYMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pRcVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pRsVUEeylufis4gFmdA" comments="_jrpG4MVUEeylufis4gFmdA" targetConnectionVisual="_jrpG4cVUEeylufis4gFmdA" name="getCommentLine">
+      <modelElement href="Cobol2XML.uml#_VKd8cMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pR8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pSMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pScVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKd8ccVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pSsVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pS8VUEeylufis4gFmdA" comments="_jrpG4sVUEeylufis4gFmdA" targetConnectionVisual="_jrpt8MVUEeylufis4gFmdA" name="getProgram_ID">
+      <modelElement href="Cobol2XML.uml#_VKd8csVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pTMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pTcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pTsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKd8c8VUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pT8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pUMVUEeylufis4gFmdA" comments="_jrpt8cVUEeylufis4gFmdA" targetConnectionVisual="_jrpt8sVUEeylufis4gFmdA" name="getSectionName">
+      <modelElement href="Cobol2XML.uml#_VKd8dMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pUcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pUsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pU8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKd8dcVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pVMVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pVcVUEeylufis4gFmdA" comments="_jrqVAMVUEeylufis4gFmdA" targetConnectionVisual="_jrqVAcVUEeylufis4gFmdA" name="getDivisionName">
+      <modelElement href="Cobol2XML.uml#_VKejgMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pVsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pV8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pWMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKejgcVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pWcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pWsVUEeylufis4gFmdA" comments="_jrq8EMVUEeylufis4gFmdA" targetConnectionVisual="_jrq8EcVUEeylufis4gFmdA" name="getDayDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKejgsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pW8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pXMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pXcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKejg8VUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pXsVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pX8VUEeylufis4gFmdA" comments="_jrrjIMVUEeylufis4gFmdA" targetConnectionVisual="_jrrjIcVUEeylufis4gFmdA" name="getMonthDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKejhMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pYMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pYcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pYsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKejhcVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8pY8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr8pZMVUEeylufis4gFmdA" comments="_jrrjIsVUEeylufis4gFmdA" targetConnectionVisual="_jrsKMMVUEeylufis4gFmdA" name="getYearDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKejhsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr8pZcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr8pZsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr8pZ8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKfKkMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr8paMVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9P8MVUEeylufis4gFmdA" comments="_jrsKMcVUEeylufis4gFmdA" targetConnectionVisual="_jrsKMsVUEeylufis4gFmdA" name="setCommentLine">
+      <modelElement href="Cobol2XML.uml#_VKfKkcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9P8cVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9P8sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9P88VUEeylufis4gFmdA" name="commentLine">
+        <modelElement href="Cobol2XML.uml#_VKfKksVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9P9MVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9P9cVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9P9sVUEeylufis4gFmdA" comments="_jrsxQMVUEeylufis4gFmdA" targetConnectionVisual="_jrsxQcVUEeylufis4gFmdA" name="setProgram_ID">
+      <modelElement href="Cobol2XML.uml#_VKfKk8VUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9P98VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9P-MVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9P-cVUEeylufis4gFmdA" name="program_idString">
+        <modelElement href="Cobol2XML.uml#_VKfKlMVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9P-sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9P-8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9P_MVUEeylufis4gFmdA" comments="_jrtYUMVUEeylufis4gFmdA" targetConnectionVisual="_jrtYUcVUEeylufis4gFmdA" name="setDayDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKfxoMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9P_cVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9P_sVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9P_8VUEeylufis4gFmdA" name="dayDateWritten">
+        <modelElement href="Cobol2XML.uml#_VKfxocVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QAMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QAcVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QAsVUEeylufis4gFmdA" comments="_jrt_YMVUEeylufis4gFmdA" targetConnectionVisual="_jrt_YcVUEeylufis4gFmdA" name="setMonthDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKfxosVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QA8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QBMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QBcVUEeylufis4gFmdA" name="monthDateWritten">
+        <modelElement href="Cobol2XML.uml#_VKfxo8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QBsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QB8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QCMVUEeylufis4gFmdA" comments="_jrumcMVUEeylufis4gFmdA" targetConnectionVisual="_jrumccVUEeylufis4gFmdA" name="setYearDateWritten">
+      <modelElement href="Cobol2XML.uml#_VKgYsMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QCcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QCsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QC8VUEeylufis4gFmdA" name="yearDateWritten">
+        <modelElement href="Cobol2XML.uml#_VKgYscVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QDMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QDcVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QDsVUEeylufis4gFmdA" comments="_jrumcsVUEeylufis4gFmdA" targetConnectionVisual="_jrvNgMVUEeylufis4gFmdA" name="setSectionName">
+      <modelElement href="Cobol2XML.uml#_VKg_wMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QD8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QEMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QEcVUEeylufis4gFmdA" name="sectionName">
+        <modelElement href="Cobol2XML.uml#_VKg_wcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QEsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QE8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QFMVUEeylufis4gFmdA" comments="_jrvNgcVUEeylufis4gFmdA" targetConnectionVisual="_jrvNgsVUEeylufis4gFmdA" name="setDivisionName">
+      <modelElement href="Cobol2XML.uml#_VKg_wsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QFcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QFsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QF8VUEeylufis4gFmdA" name="divisionName">
+        <modelElement href="Cobol2XML.uml#_VKg_w8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QGMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QGcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QGsVUEeylufis4gFmdA" comments="_jrv0kMVUEeylufis4gFmdA" targetConnectionVisual="_jrv0kcVUEeylufis4gFmdA" name="toString">
+      <modelElement href="Cobol2XML.uml#_VKg_xMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QG8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QHMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QHcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKhm0MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QHsVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QH8VUEeylufis4gFmdA" name="getConstantName">
+      <modelElement href="Cobol2XML.uml#_VKhm0cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QIMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QIcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QIsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKhm0sVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QI8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QJMVUEeylufis4gFmdA" name="setConstantName">
+      <modelElement href="Cobol2XML.uml#_VKhm08VUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QJcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QJsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QJ8VUEeylufis4gFmdA" name="constantName">
+        <modelElement href="Cobol2XML.uml#_VKhm1MVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QKMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QKcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QKsVUEeylufis4gFmdA" name="getConstantValue">
+      <modelElement href="Cobol2XML.uml#_VKhm1cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QK8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QLMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QLcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKiN4MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QLsVUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QL8VUEeylufis4gFmdA" name="setConstantValue">
+      <modelElement href="Cobol2XML.uml#_VKiN4cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QMMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QMcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QMsVUEeylufis4gFmdA" name="constantValue">
+        <modelElement href="Cobol2XML.uml#_VKiN4sVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QM8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QNMVUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QNcVUEeylufis4gFmdA" name="getLineNumber">
+      <modelElement href="Cobol2XML.uml#_VKiN48VUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QNsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QN8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QOMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKiN5MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QOcVUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QOsVUEeylufis4gFmdA" name="setLineNumber">
+      <modelElement href="Cobol2XML.uml#_VKiN5cVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QO8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QPMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QPcVUEeylufis4gFmdA" name="lineNumber">
+        <modelElement href="Cobol2XML.uml#_VKi08MVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QPsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QP8VUEeylufis4gFmdA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QQMVUEeylufis4gFmdA" comments="_jrxCsMVUEeylufis4gFmdA" targetConnectionVisual="_jrxCscVUEeylufis4gFmdA" name="getQuoted">
+      <modelElement href="Cobol2XML.uml#_VKi08cVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr9QQcVUEeylufis4gFmdA" name="Generics">
+        <modelElement href="Cobol2XML.uml#_VKi08sVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr9QQsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QQ8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QRMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VX1DAMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QRcVUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QRsVUEeylufis4gFmdA" comments="_jrxpwMVUEeylufis4gFmdA" targetConnectionVisual="_jrxpwcVUEeylufis4gFmdA" name="getValues">
+      <modelElement href="Cobol2XML.uml#_VKjcAMVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr9QR8VUEeylufis4gFmdA" name="Generics">
+        <modelElement href="Cobol2XML.uml#_VKkDEMVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr9QSMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QScVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QSsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VX2RIMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QS8VUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QTMVUEeylufis4gFmdA" name="getInitialPosition">
+      <modelElement href="Cobol2XML.uml#_VKkDEcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QTcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QTsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QT8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKkqIMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QUMVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QUcVUEeylufis4gFmdA" name="setInitialPosition">
+      <modelElement href="Cobol2XML.uml#_VKkqIcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QUsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QU8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QVMVUEeylufis4gFmdA" name="initialPosition">
+        <modelElement href="Cobol2XML.uml#_VKkqIsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QVcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QVsVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QV8VUEeylufis4gFmdA" name="getFinalPosition">
+      <modelElement href="Cobol2XML.uml#_VKkqI8VUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QWMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QWcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QWsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKkqJMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QW8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QXMVUEeylufis4gFmdA" name="setFinalPosition">
+      <modelElement href="Cobol2XML.uml#_VKlRMMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QXcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QXsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QX8VUEeylufis4gFmdA" name="finalPosition">
+        <modelElement href="Cobol2XML.uml#_VKlRMcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QYMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QYcVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QYsVUEeylufis4gFmdA" name="getCallIdentifier">
+      <modelElement href="Cobol2XML.uml#_VKlRMsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QY8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QZMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QZcVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKlRM8VUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QZsVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QZ8VUEeylufis4gFmdA" name="setCallIdentifier">
+      <modelElement href="Cobol2XML.uml#_VKlRNMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QaMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QacVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QasVUEeylufis4gFmdA" name="callIdentifier">
+        <modelElement href="Cobol2XML.uml#_VKlRNcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9Qa8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QbMVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QbcVUEeylufis4gFmdA" name="getCallVariable">
+      <modelElement href="Cobol2XML.uml#_VKlRNsVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QbsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9Qb8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QcMVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKl4QMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QccVUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QcsVUEeylufis4gFmdA" name="setCallVariable">
+      <modelElement href="Cobol2XML.uml#_VKl4QcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9Qc8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QdMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QdcVUEeylufis4gFmdA" name="callVariable">
+        <modelElement href="Cobol2XML.uml#_VKl4QsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QdsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9Qd8VUEeylufis4gFmdA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QeMVUEeylufis4gFmdA" name="getCallValue">
+      <modelElement href="Cobol2XML.uml#_VKl4Q8VUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QecVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QesVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9Qe8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VKl4RMVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QfMVUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_jr9QfcVUEeylufis4gFmdA" name="setCallValue">
+      <modelElement href="Cobol2XML.uml#_VKmfUMVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QfsVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9Qf8VUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QgMVUEeylufis4gFmdA" name="callValue">
+        <modelElement href="Cobol2XML.uml#_VKmfUcVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QgcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QgsVUEeylufis4gFmdA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9Qg8VUEeylufis4gFmdA" comments="_jrze8MVUEeylufis4gFmdA" targetConnectionVisual="_jrze8cVUEeylufis4gFmdA" name="ifCobolObjEqual" staticOperation="true">
+      <modelElement href="Cobol2XML.uml#_VXymwcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QhMVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QhcVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9QhsVUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VXzN0MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9Qh8VUEeylufis4gFmdA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jr9QiMVUEeylufis4gFmdA" name="o1">
+        <modelElement href="Cobol2XML.uml#_VXymwsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QicVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QisVUEeylufis4gFmdA" name="Object">
+          <modelElement href="Cobol2XML.uml#_VWXqcMVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_jr9Qi8VUEeylufis4gFmdA" name="o2">
+        <modelElement href="Cobol2XML.uml#_VXymw8VUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QjMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QjcVUEeylufis4gFmdA" name="Object">
+          <modelElement href="Cobol2XML.uml#_VWXqcMVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QjsVUEeylufis4gFmdA" name="equals">
+      <modelElement href="Cobol2XML.uml#_VXzN0cVUEeylufis4gFmdA"/>
+      <stereotypes xmi:id="_jr9Qj8VUEeylufis4gFmdA" name="LegacyStyledElement">
+        <modelElement href="Cobol2XML.uml#_VXz04cVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_jr9QkMVUEeylufis4gFmdA" name="Annotations">
+        <modelElement href="Cobol2XML.uml#_VX0b8MVUEeylufis4gFmdA"/>
+      </stereotypes>
+      <visibility xmi:id="_jr9QkcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QksVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_jr9Qk8VUEeylufis4gFmdA">
+        <modelElement href="Cobol2XML.uml#_VXz04MVUEeylufis4gFmdA"/>
+        <type xmi:id="_jr9QlMVUEeylufis4gFmdA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_jr9QlcVUEeylufis4gFmdA" name="o">
+        <modelElement href="Cobol2XML.uml#_VXzN0sVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QlsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9Ql8VUEeylufis4gFmdA" name="Object">
+          <modelElement href="Cobol2XML.uml#_VWXqcMVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QmMVUEeylufis4gFmdA" comments="_jr0GAMVUEeylufis4gFmdA" targetConnectionVisual="_jr0GAcVUEeylufis4gFmdA" name="setQuoted">
+      <modelElement href="Cobol2XML.uml#_VX1DAcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9QmcVUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QmsVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9Qm8VUEeylufis4gFmdA" name="quoted">
+        <modelElement href="Cobol2XML.uml#_VX1DAsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QnMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9QncVUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_jr9QnsVUEeylufis4gFmdA" comments="_jr0tEMVUEeylufis4gFmdA" targetConnectionVisual="_jr0tEcVUEeylufis4gFmdA" name="setValues">
+      <modelElement href="Cobol2XML.uml#_VX2RIcVUEeylufis4gFmdA"/>
+      <visibility xmi:id="_jr9Qn8VUEeylufis4gFmdA" label="+"/>
+      <cardinality xmi:id="_jr9QoMVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_jr9QocVUEeylufis4gFmdA" name="values">
+        <modelElement href="Cobol2XML.uml#_VX2RIsVUEeylufis4gFmdA"/>
+        <cardinality xmi:id="_jr9QosVUEeylufis4gFmdA" label="1" max="1" min="1"/>
+        <type xmi:id="_jr9Qo8VUEeylufis4gFmdA" name="ArrayList">
+          <modelElement href="Cobol2XML.uml#_VUAS8MVUEeylufis4gFmdA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_jrxCsMVUEeylufis4gFmdA" sourceConnectionVisual="_jrxCscVUEeylufis4gFmdA" text="&#xD;&#xA;&#x9; * @return the quoted in display command" item="_jr9QQMVUEeylufis4gFmdA">
+    <modelElement href="Cobol2XML.uml#_VbGZe8VUEeylufis4gFmdA"/>
+    <visualProperties xmi:id="_WakOMMVbEeylufis4gFmdA" position="265.0,1020.0" size="200.0,150.0" visible="false"/>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
